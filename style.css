@@ -1,0 +1,242 @@
+
+.nav-button {
+    background-color: rgb(57, 56, 56);
+    padding: 10px 20px;
+    color: white;
+}
+
+.icon {
+    transition: .3s linear;
+}
+
+.detail-div-2:hover .icon {
+    rotate: 45deg;
+    transition: .3s linear;
+}
+
+.nav-button:hover {
+    background-color: #c4EF17;
+    transition: .5s linear;
+    color: black;
+}
+
+.eat-sec:hover .hover-2{
+    background-color: rgb(61, 56, 56);
+    transition: .3s linear;
+    top: 0;
+    opacity: 1 !important;
+    z-index: 11111;
+}
+.eat-box:hover .hov-1 {
+    background-color: #c4ef17 !important;
+    transition: .1s linear;
+    color: #262626;
+
+}
+
+.datea:hover {
+    color: white !important;
+    transition: .3s linear;
+}
+
+.left-tittle:hover {
+    color: #c4EF17;
+    transition: .3s linear;
+}
+
+.portfolio-h1:hover {
+    border-bottom: 2px solid white;
+    width: 770px;
+    transition: .3s linear;
+}
+
+
+.parent:hover .img-p {
+    scale: 1;
+    transition: .3s linear;
+}
+
+.parent:hover .left-tittle {
+    color: #c4EF17;
+    transition: .3s linear;
+}
+
+.img-p {
+    scale: 0;
+    transition: .3s linear;
+}
+
+.hover-parent {
+    transition: .3s linear;
+    overflow: hidden;
+}
+
+.hover-parent:hover  {
+    filter: grayscale(100%);
+}
+
+.hover-parent:hover h1 {
+   display: none;
+   transition: .3s linear;
+}
+
+.hover-parent:hover .hover-div {
+    transform: translateY(120px) rotate(0deg);
+    transition: .3s linear;
+}
+
+.hover-div{
+    height: 0px;
+    transform: translateY(450px) rotate(50deg);
+}
+
+.icons:hover {
+    color: #c4ef17 !important;
+    transition: .3s linear;
+}
+
+.slider {
+    animation: slider;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+
+.play-h1 {
+    scale: 0;
+    transition: .5s linear;
+}
+
+.container-play:hover .play-h1 {
+    scale: 1;
+    transition: .5s linear;
+}
+
+.icon-div-2:hover {
+    background-color: #c4EF17;
+    color: black;
+    transition: .3s linear;
+}
+
+.footer-details:hover {
+    color: #c4ef17;
+    transition: .3s linear;
+}
+
+@keyframes slider {
+
+    0% {
+        transform: translateX(0%);
+    }
+
+    33% {
+        transform: translateX(-100%);
+    }
+
+
+    66% {
+        transform: translateX(-200%);
+    }
+
+    100% {
+        transform: translateX(-300%);
+    }
+
+   
+
+}
+
+
+@media only screen and (max-width:600px){
+
+
+    .parent-row {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .left-div-1sec {
+        height: 400px !important;
+    }
+
+    .p-img {
+        right: 0px !important;
+        height: 130px !important;
+        bottom: 0px !important;
+    }
+
+    .sec-img {
+        bottom: -80px !important;
+        right: 0px !important;
+    }
+
+    .title-1sec {
+        font-size: 60px !important;
+    }
+
+    .left-img-2 {
+        height: 400px;
+    }
+
+    .card-1 {
+        height: 400px !important;
+        background-size: cover !important;
+    }
+
+    .uper-div {
+        height: 400px !important;
+    }
+
+    .card-2 {
+        height: 400px !important;
+    }
+
+    .img-p {
+        height: 400px !important;
+        border: 3px solid silver;
+    }
+
+    .img-left {
+        height: 400px !important;
+    }
+
+}
+
+
+@media only screen and (max-width:1080px){
+
+    .left-img-2 {
+        height: 450px !important;
+    }
+
+    .img-left {
+        height: 500px !important;
+    }
+
+}
+
+
+
+.splashLine{
+    animation: splashanime 1s linear infinite;
+  }
+.splashLine:nth-child(2){
+    animation: splashanime 1s linear .2s infinite;
+  }
+.splashLine:nth-child(3){
+    animation: splashanime 1s linear .4 infinite;
+  }
+.splashLine:last-child{
+    animation: splashanime 1s linear .6s infinite;
+  }
+  @keyframes splashanime {
+    0%,100%{
+      height: 5px ;
+    }
+    50%{
+      height: 70px ;
+    }
+  }
